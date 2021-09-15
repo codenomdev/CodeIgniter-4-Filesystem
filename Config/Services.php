@@ -37,7 +37,7 @@ class Services extends BaseServices
     public static function LockableFile(string $path, string $mode, bool $getShared = true)
     {
         if ($getShared) {
-            return self::getSharedInstance('Filesystem');
+            return self::getSharedInstance('LockableFile', $path, $mode);
         }
 
         return new LockableFile($path, $mode);
