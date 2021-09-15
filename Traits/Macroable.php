@@ -1,6 +1,6 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\Traits;
+namespace Codenom\Filesystem\Traits;
 
 use Closure;
 use ReflectionClass;

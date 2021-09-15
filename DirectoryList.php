@@ -1,6 +1,6 @@
 <?php
 
-namespace Codenom\Framework\Filesystem;
+namespace Codenom\Filesystem;
 
 /**
  * A Codenom application specific list of directories

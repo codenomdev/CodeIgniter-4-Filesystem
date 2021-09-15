@@ -1,8 +1,8 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\File;
+namespace Codenom\Filesystem\File;
 
-use Codenom\Framework\Filesystem\Filesystem;
+use Codenom\Filesystem\Filesystem;
 
 class ReadFactory
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Codenom\Framework\Filesystem;
+namespace Codenom\Filesystem;
 
-use Codenom\Framework\Filesystem\Exception\FilesystemException;
-use Codenom\Framework\Filesystem\Traits\Macroable;
+use Codenom\Filesystem\Exception\FilesystemException;
+use Codenom\Filesystem\Traits\Macroable;
 use ErrorException;
 use FilesystemIterator;
 use RuntimeException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\File;
+namespace Codenom\Filesystem\File;
 
 interface ReadInterface
 {

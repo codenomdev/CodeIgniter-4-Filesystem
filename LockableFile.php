@@ -1,6 +1,6 @@
 <?php
 
-namespace Codenom\Framework\Filesystem;
+namespace Codenom\Filesystem;
 
 use Codenom\Filesystem\Exception\FilesystemException;
 

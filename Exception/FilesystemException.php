@@ -1,6 +1,6 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\Exception;
+namespace Codenom\Filesystem\Exception;
 
 use Exception;
 

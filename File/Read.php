@@ -1,9 +1,9 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\File;
+namespace Codenom\Filesystem\File;
 
-use Codenom\Framework\Filesystem\Exception\FilesystemException;
-use Codenom\Framework\Filesystem\Filesystem;
+use Codenom\Filesystem\Exception\FilesystemException;
+use Codenom\Filesystem\Filesystem;
 
 class Read implements ReadInterface
 {
@@ -164,7 +164,7 @@ class Read implements ReadInterface
      * Assert file existence.
      * 
      * @return bool
-     * @throws \Codenom\Framework\Filesystem\FilesystemException
+     * @throws \Codenom\Filesystem\FilesystemException
      */
     protected function assertValid()
     {

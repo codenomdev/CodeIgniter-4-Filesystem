@@ -1,8 +1,8 @@
 <?php
 
-namespace Codenom\Framework\Filesystem\Finder;
+namespace Codenom\Filesystem\Finder;
 
-use Codenom\Framework\Filesystem\Exception\FilesystemException;
+use Codenom\Filesystem\Exception\FilesystemException;
 
 /**
  * A list of directories
@@ -223,7 +223,7 @@ class DirectoryList
      * Asserts that specified directory code is in the registry
      *
      * @param string $code
-     * @throws \Codenom\Framework\Filesystem\Exception\FileSystemException
+     * @throws \Codenom\Filesystem\Exception\FileSystemException
      * @return void
      */
     private function assertCode($code)
