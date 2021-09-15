@@ -1,0 +1,34 @@
+{
+    "name": "codenom/filesystem",
+    "description": "The Filesystem package for Codenom/Framework components.",
+    "license": "MIT",
+    "homepage": "http://codenom.com",
+    "support": {
+        "issues": "https://github.com/codenomdev/filesystem/issues",
+        "source": "https://github.com/codenomdev/filesystem"
+    },
+    "authors": [
+        {
+            "name": "Ilham Falachul Adha",
+            "email": "falachul14@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "symfony/finder": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codenom\\Filesystem\\": ""
+        }
+    },
+    "suggest": {
+        "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
+        "symfony/filesystem": "Required to enable support for relative symbolic links (^5.3).",
+        "symfony/mime": "Required to enable support for guessing extensions (^5.3)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
